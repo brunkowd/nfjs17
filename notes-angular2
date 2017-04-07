@@ -17,3 +17,43 @@ angular/angualar-cli
 
 https://gitlab.com/looselytyped/nfjs-angular-demo/
 
+Angular 2 is component based.
+
+angular 1, what is two way binding - Two-way Binding. Data binding in AngularJS is the synchronization between the model and the view. When data in the model changes, the view reflects the change, and when data in the view changes, the model is updated as well.
+
+* https://angular.io/styleguide
+read this
+file naming
+project organization, ...
+
+how do you write a component
+component is html and css backed by state written in typescript.
+javascript++
+
+typescript written by microsoft, with microsoft doing the right thing.
+is valid javascript
+Annotaions are coming.
+
+module is basically a javascript package.
+
+no script tags in the htmle. it inserts it for you.
+
+https://code.visualstudio.com/docs?start=true
+
+
+ng generate component SomeComponent --dry-run true
+
+camelcase comeup
+
+
+This is PascalCase: SomeSymbol
+
+This is camelCase: someSymbol
+
+This is snake_case: some_symbol
+
+lisp case some-symbol
+
+angular-update-guild.firebaseapp.com
+
+
