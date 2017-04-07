@@ -1,4 +1,57 @@
 type erasure refers to the compile-time process by which explicit type annotation are removed from a program, before it is executed at run-time.
 
 
+http://shop.oreilly.com/product/0636920056669.do
 
+command option tab
+
+github/jousen
+
+Android will support java8 soon
+
+https://github.com/kousen/java_8_recipes/blob/16bc55ed22373824ae9fc2853cd974fc0c17bf52/src/main/java/mapvsflatmap/UsePerson.java
+
+
+supplier
+https://docs.oracle.com/javase/8/docs/api/java/util/function/Supplier.html
+
+
+jmh - microbenchmarking framework. runs analysis on things like loops
+
+shift alt up arrow, move a line of code up
+
+findfirst
+stream
+
+pipeline
+  a source
+  zero or more intermediate operatoins
+  a terminal operation
+  
+stream doesn't modify the original source.
+
+java didn't add stream to collecton. collectons are not immutable and they wanted to guarantee it didn't modify the original.
+
+collectons::unmodifiable list
+
+reducton operations
+
+count
+
+Typical stream code.
+widget.steram()
+  .filter(w -> w.getColor() == RED)
+  .maptoInt(w -> w.getWeight())
+  .sum()
+  
+  
+Stream.iterate
+
+Stream.generate
+
+IntStream
+LongStream.range(10,15).boxed() 
+  // boxed takes primitives and maps to wrapper.
+
+
+  
