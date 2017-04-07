@@ -53,5 +53,7 @@ IntStream
 LongStream.range(10,15).boxed() 
   // boxed takes primitives and maps to wrapper.
 
+Collectors.toMap
+
 
   
