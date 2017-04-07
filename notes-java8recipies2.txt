@@ -1,0 +1,4 @@
+type erasure refers to the compile-time process by which explicit type annotation are removed from a program, before it is executed at run-time.
+
+
+
