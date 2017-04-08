@@ -1,0 +1,61 @@
+Functional Programming
+
+mutability - mutate 
+
+javap -c path/foo.class
+
+We don't want mutability in our code
+
+Functions don't generally have the oo side affects, doesn't change state, doesn't have accidental complexity, easier to understand and maintain.
+
+what about wastage in copies of objects
+  don't copy things stupidly.
+  
+http://javarevisited.blogspot.com/2014/02/10-example-of-lambda-expressions-in-java8.html
+
+https://www.jetbrains.com/help/idea/2017.1/commenting-and-uncommenting-blocks-of-code.html
+
+external vs internal iterators
+
+functional interfaces is an interface with exactly one abstract method.
+
+type inference
+
+need () if your list is empty or if you have 2 or more parameters
+
+method references - when the lamda is so trivial, you can replace it with a method reference; ie the office space pattern.
+
+method reference ::
+
+functional interface, 3 things you can send when a functional interface is expected.
+1. may receive an object that implements that inteface
+2. may receive a lambda expression
+3. in limited situations, you can pass a method reference
+
+functional programming is declarative style
+  ds - tell me what to do and let the libary figure out how to do it.
+
+imperative - tell me what to do and how to do it.
+
+mutability
+     // imperitive
+    numbers.forEach(System.out::println);
+    int total = 0;
+    for (int e: numbers) {
+      if (e%2 == 0) {
+        total += e * 2;
+      }
+    }
+
+transformation
+    // declarative, removes accidental complexity
+    System.out.println("Sum " + numbers.stream()
+            .filter(e -> e%2 == 0)
+            .mapToInt(e -> e * 2)
+            .sum());
+
+fowler calls this the collection pipeline pattern
+
+
+https://martinfowler.com/articles/collection-pipeline/
+
