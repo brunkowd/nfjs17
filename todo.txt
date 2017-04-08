@@ -1,2 +1,3 @@
 Create a hello world angular2 app.
 Study multicore processors.
+Read this: https://martinfowler.com/articles/collection-pipeline/
