@@ -88,3 +88,10 @@ a variable is effectively final if you don't use the keyword final, but you trea
 
 int [] factor = new int [] { 2 }; arrays like this are on the heap. the heap isn't protected with final.
 
+
+polymorphism is oop
+  function componsition and lazy evaluation is to FP
+  YOU can't have lazy evaluation without immutability.
+  
+  
+  
