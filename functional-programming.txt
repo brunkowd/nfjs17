@@ -59,3 +59,32 @@ fowler calls this the collection pipeline pattern
 
 https://martinfowler.com/articles/collection-pipeline/
 
+functions in fp have to be pure
+  function gives the same output for exactly the same input.
+ 
+impure function will not be consistent.
+
+pure functions do note have side effects.
+1. Pure functions do not change anything
+2. The function does not depend on anything that may change.
+  
+lambdas are stateless and self sufficient.
+
+e -> e*2
+
+Can't tell what factor is by only looking at the lambda. has an unbounded variable called factor. 
+lexical scoping, this lambda has to close-over, closure.
+
+a closue has immutable state. it is dangerous to use mutable state in a closure.
+
+
+e -> e * factor
+
+
+
+lambda is basically a lambda
+
+a variable is effectively final if you don't use the keyword final, but you treat as final.
+
+int [] factor = new int [] { 2 }; arrays like this are on the heap. the heap isn't protected with final.
+
